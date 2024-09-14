@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#gameCanvas {
+    display: block;
+    margin: 0 auto;
+    background: radial-gradient(circle, #000, #333);
+}
+
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg, #000, #333);
+    transform: rotateX(45deg) rotateY(45deg);
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    z-index: -1;
+}
